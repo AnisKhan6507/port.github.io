@@ -1,0 +1,116 @@
+/* for cards */
+@media (max-width:768px) {
+  .card-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    width: 70vw;
+    margin: 30px;
+}
+
+.img-c {
+    min-height: 39vh;
+}
+}
+
+/* for nav-bar */
+@media (max-width:768px) {
+    nav ul li a{
+       border:2px solid white;
+    }
+    
+    p1{
+    padding-left: 5px;
+    display: block;
+    width: 87vw;
+    position: absolute;
+    top: 8px;
+    font-size: 20px;
+    }
+
+    /* .nav-links{
+        position: absolute;
+        background-color: darkgreen;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right:0;
+        text-align: left;
+        z-index: 3;
+    } */
+
+    .navbar{
+        height: fit-content;
+        position: relative;
+    }
+}
+
+@media (max-width:474px){
+ p2{
+     font-size: 30px;
+ }
+}
+
+/* for menu cards */
+@media (max-width:768px) {
+    .card-flex{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .menucard{
+      width: 50vw;
+      margin: 30px;
+  }
+
+  .container[b]{
+      font-size: 6px;
+  }
+
+  #link-b{
+      font-size: 4px;
+  }
+}
+
+/* for reviews */
+
+@media (max-width:768px){
+    .reviews{
+        width: 70vw;
+        margin: 30px;
+    }   
+
+    p5{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:554px) {
+    .reviews{
+        height: fit-content;
+    }
+    
+}
+/* Addres section */
+
+@media (max-width:768px){
+
+    .adres-flex{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .address{
+        border: none;
+    }
+    .items{
+        height: fit-content;
+    }
+}       
